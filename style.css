@@ -1,0 +1,43 @@
+/* 1. Открыть Домашнюю работу из урока 1.
+Создать файл стилей style.css
+Подключить ко всем страницам */
+
+/* 2. Задать стиль a { text-decoration: none; } */
+a {
+    text-decoration: none;
+}
+
+/* 3. Для всех ссылок меню задать класс (придумать логичное название класса) */
+.nav {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* 4. Для всех заголовков h1 на сайте задать класс и к нему стиль */
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* 5. Для всех параграфов в проекте задать класс.
+К данному классу задать стили: */
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+/* 6. Для заголовков h2 задать класс.
+К данному классу указать стиль: */
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
