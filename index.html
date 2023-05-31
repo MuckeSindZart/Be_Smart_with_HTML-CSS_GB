@@ -1,49 +1,55 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная</title>
-
-    <!-- Подключить ко всем страницам -->
+    <title>GrowBe</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a class="nav" href="index.html">Главная</a>
-    <a class="nav" href="./catalog/catalog.html">Каталог</a>
-    <a class="nav" href="">Контакты</a>
+    <div class="top">
+      <div class="top__header">
+        <a class="top__main-page-link" href="index.html">
+          <img
+            class="top__header-logo"
+            src="img/growbe-logo.svg"
+            alt="GrowBe logo"
+          />
+        </a>
+        <div class="top__nav-list">
+          <a class="top__nav-link top__nav-link_active" href="#">Home</a>
+          <a class="top__nav-link" href="#">About Us</a>
+          <a class="top__nav-link" href="#">Services</a>
+          <a class="top__nav-link" href="#">Team</a>
+          <a class="top__nav-link" href="#">Blog</a>
+          <a class="top__nav-link" href="#">Contact</a>
+        </div>
+      </div>
 
-    <h1 class="title">Главная страница</h1>
+      <div class="top__main">
+        <div class="top__info">
+          <h1 class="top__title">SEO & Digital Marketing For Your Website.</h1>
+          <p class="top__text">
+            Provide all kind of seo services and help to improve seo ranking.
+            Globally incubate standards.
+          </p>
+          <div class="top__buttons">
+            <button class="top__button top__button_main">Start Now</button>
+            <button class="top__button">Watch Video</button>
+          </div>
+        </div>
+        <img class="top__image" src="img/top_content_img.png" alt="Top image" />
+      </div>
+    </div>
 
-    <p class="text">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam
-      optio rem libero sequi? Expedita repellendus ipsum voluptate praesentium
-      beatae maxime porro dolorum quam, quidem, reiciendis reprehenderit
-      consequatur, temporibus perspiciatis.
-    </p>
-
-    <h2 class="subtitle">Добро пожаловать на сайт</h2>
-
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
-      totam, eligendi sapiente laudantium pariatur veniam neque labore
-      praesentium culpa ex quibusdam temporibus saepe adipisci aut placeat,
-      aliquam in aspernatur amet!
-    </p>
-
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
-      totam, eligendi sapiente laudantium pariatur veniam neque labore
-      praesentium culpa ex quibusdam temporibus saepe adipisci aut placeat,
-      aliquam in aspernatur amet!
-    </p>
-
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
-      totam, eligendi sapiente laudantium pariatur veniam neque labore
-      praesentium culpa ex quibusdam temporibus saepe adipisci aut placeat,
-      aliquam in aspernatur amet!
-    </p>
+    <div class="logos">
+      <img src="img/top_logo_1.svg" alt="Liva logo" class="logo" />
+      <img src="img/top_logo_6.svg" alt="Kanba logo" class="logo" />
+      <img src="img/top_logo_3.svg" alt="Amara logo" class="logo" />
+      <img src="img/top_logo_4.svg" alt="Aven logo" class="logo" />
+      <img src="img/top_logo_5.svg" alt="HexLab logo" class="logo" />
+      <img src="img/top_logo_6.svg" alt="Kanba logo" class="logo" />
+    </div>
   </body>
 </html>

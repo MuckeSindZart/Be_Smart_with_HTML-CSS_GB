@@ -1,43 +1,75 @@
-/* 1. Открыть Домашнюю работу из урока 1.
-Создать файл стилей style.css
-Подключить ко всем страницам */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* 2. Задать стиль a { text-decoration: none; } */
-a {
+body {
+    font-family: "Gilroy-SemiBold";
+    color: #000000;
+}
+
+.top,
+.logos {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top {
+    padding: 40px 0 162px;
+}
+
+.top__header {
+    margin-top: 40px;
+}
+
+.top__nav-link {
+    font-size: 14px;
+    line-height: 16px;
     text-decoration: none;
+    color: #000000;
 }
 
-/* 3. Для всех ссылок меню задать класс (придумать логичное название класса) */
-.nav {
-    color: cornflowerblue;
-    font-size: 16px;
-    line-height: 20px;
+.top__nav-link_active {
+    color: #f25822;
 }
 
-/* 4. Для всех заголовков h1 на сайте задать класс и к нему стиль */
-.title {
-    color: #222222;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
+.top__main {
+
+    margin-top: 84px;
 }
 
-/* 5. Для всех параграфов в проекте задать класс.
-К данному классу задать стили: */
-.text {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987;
+.top__title {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 17px;
 }
 
-/* 6. Для заголовков h2 задать класс.
-К данному классу указать стиль: */
-.subtitle {
-    color: coral;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 80px;
+.top__text {
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.top__buttons {
+    margin-top: 37px;
+}
+
+.top__button {
+    font-size: 15px;
+    line-height: 18px;
+    color: #aaaaaa;
+    background: transparent;
+    border: none;
+    padding: 15px 36px 16px 35px;
+}
+
+.top__button_main {
+    color: #ffffff;
+    background: #f25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.logos {
+    padding: 97px 0 96px;
 }
