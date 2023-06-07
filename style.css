@@ -10,7 +10,7 @@ body {
 
 .top,
 .logos {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 }
 
@@ -19,6 +19,8 @@ body {
 }
 
 .top__header {
+    display: flex;
+    justify-content: space-between;
     margin-top: 40px;
 }
 
@@ -27,6 +29,7 @@ body {
     line-height: 16px;
     text-decoration: none;
     color: #000000;
+    padding: 35px 12px;
 }
 
 .top__nav-link_active {
@@ -34,7 +37,8 @@ body {
 }
 
 .top__main {
-
+    display: flex;
+    justify-content: space-between;
     margin-top: 84px;
 }
 
@@ -71,5 +75,7 @@ body {
 }
 
 .logos {
+    display: flex;
+    justify-content: space-between;
     padding: 97px 0 96px;
 }
